@@ -29,6 +29,8 @@ int main(){
     int iValue1=0 ,iValue2=0, iresult=0;
 
     printf("enter first number : \n");
+
+    
     if(scanf("%d",&iValue1) !=1)
     {
         fprintf(stderr,"Unable to proceed asInput is inavlid\n");
