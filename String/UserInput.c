@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    char Arr[20] ;
+    char Arr[20] = {'\0'} ;
 
     printf("Enter string :");  //After space it break
     scanf("%s\n",Arr);
@@ -20,7 +20,7 @@ int main()
     //////////////////////////////////////////////////////////////////
 
 
-    char str[20] ;
+    char str[20] = {'\0'};
 
     printf("Enter another String :");
     scanf("%[^'\n']s",str);
