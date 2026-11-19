@@ -28,7 +28,6 @@ void CountFrequency(char *str)
         {
             iCountSpecial++ ;
         }
-
         str++ ;
     }
 
