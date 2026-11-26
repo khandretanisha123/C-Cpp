@@ -1,3 +1,8 @@
+
+/*
+    Generic function used because 
+*/
+
 #include<iostream>
 using namespace std ;
 
@@ -37,7 +42,9 @@ int main()
     cout<<"Enter Second number \n";
     cin>>iValue2 ;
 
+
     Number <int> *nobj = new Number <int> (iValue1,iValue2);
+    // we have to mention data type here 
 
     cout<<"Addition is :" <<nobj->Addition()<<endl ;
 

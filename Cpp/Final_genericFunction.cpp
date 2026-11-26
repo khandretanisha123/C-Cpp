@@ -2,7 +2,7 @@
 using namespace std;
 
 template<class T >
-class Number
+class Number                       //class 
 {
     public: 
         T iNo1 ;
@@ -14,14 +14,14 @@ class Number
 };
 
 template<class T >
-Number <T> :: Number(T A , T B)
+Number <T> :: Number(T A , T B)           //constructor
 {
     iNo1 = A ;
     iNo2 = B ;
 }
 
 template<class T>
-T Number <T> :: Addition()
+T Number <T> :: Addition()              //function
 {
     T Ans ;
     Ans = iNo1 + iNo2;
